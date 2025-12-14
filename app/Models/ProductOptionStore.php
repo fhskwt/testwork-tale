@@ -9,8 +9,8 @@ class ProductOptionStore extends Model
 {
     use HasFactory;
 
-    public $timestamps = false;
     protected $table = 'product_option_store';
+    public $timestamps = false;
 
     protected $fillable = [
         'product_id',
